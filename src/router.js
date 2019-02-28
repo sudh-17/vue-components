@@ -40,6 +40,11 @@ export default new Router({
       path: '/demo6',
       name: 'demo6',
       component: demo6
+    },
+    {
+      path: '/demo8',
+      name: 'demo8',
+      component: () => import('../src/views/demo8.vue')
     }
   ]
 })
